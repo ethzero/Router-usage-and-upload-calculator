@@ -7,14 +7,15 @@ Couple of notes:
 
 What is it?
 -----------
-The goal is to make a simple to read Internet bandwidth monitor for end users.
-It requires your router to have the SNMP service enable to gather stats and a webserver to host the main PHP page.
+The goal is to provide a simple near real-time Internet bandwidth monitor.
 
+It uses a combination of the router's SNMP service and MRTG log files to gather device capabilities and read logged stats.
+It requires that this be hosted on a PHP capable webserver with the PHP-SNMP libs and MRTG already configured 
 
-Erm, is that it?
-----------------
-Well yup, so far the code is more "single propose, that'll do for me" grade.
-The intent is to keep this as compact as possible, not some complex nagios/mrtg-like thing.
+YMMV
+----
+So far the code is more "single propose, that'll do for me" grade.
+I'll be gradually working this up to something a little more patellable and user configuable.
 
 Known bugs
 ----------

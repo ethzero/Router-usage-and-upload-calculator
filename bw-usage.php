@@ -30,7 +30,7 @@ google.load("webfont", "1.0.26");
 google.load('visualization', '1', { packages:['gauge'] });
 //google.setOnLoadCallback(drawChart);
 </script>
-<script type="text/javascript" src="_assets/ajaxPoll.js"></script>
+<script type="text/javascript" src="_assets/js/ajaxPoll/ajaxPoll.js"></script>
 
 <link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
 
@@ -47,7 +47,7 @@ $.ajaxPollSettings.durationUntilMaxInterval = 2000;
 
 $.ajaxPoll({
   // setup the request
-  url: 'http://hddi-aaa/mrtg/rates.php',
+  url: 'bw-rates.php',
   crossDomain: true,
   dataType: 'jsonp',
   jsonp: true,
