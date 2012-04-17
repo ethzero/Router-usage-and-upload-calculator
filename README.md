@@ -13,7 +13,7 @@ It requires your router to have the SNMP service enable to gather stats and a we
 
 Erm, is that it?
 ----------------
-Well yup, so far the code is more "singel propose, that'll do for me" grade.
+Well yup, so far the code is more "single propose, that'll do for me" grade.
 The intent is to keep this as compact as possible, not some complex nagios/mrtg-like thing.
 
 Known bugs
